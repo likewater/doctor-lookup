@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="build/css/vendor.css">
+    <link rel="stylesheet" href="build/css/styles.css">
+    <script src="build/js/vendor.min.js"></script>
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <title>Apple Tree</title>
+  </head>
+  <body>
+    <div class="jumbotron-small" id="jumbotron">
+     <h1 class="jumboTitle">Apple Tree</h1>
+     <h3>Get Well, Live Well, Be Well
+    </div><!--closes jumbotron-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="well">
+      <h1>Find Doctors!</h1>
+      <label for="location">Zipcode: </label>
+      <input id="location" type="text" required>
+      <button class="btn-primary" id="locationSearch">Search</button>
+    </div> <!--closes well-->
+  </div> <!--closes col-md-8-->
+</div> <!--closes row-->
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <div class="well">
+      <h1>Find Doctors By Location And Specialty</h1>
+      <label for="location">Zipcode: </label>
+      <input id="location" type="text" required>
+      <label for="specialty">Specialty: </label>
+      <input id="specialty" type="text" required>
+      <button class="btn-primary" id="locationMake">Search</button>
+    </div> <!--closes well-->
+  </div> <!--closes col-md-8-->
+</div> <!--closes row-->
+      <hr>
+    <div class="col-md-6 col-md-offset-2">
+      <h2>Search Results</h2>
+      <div class="showDoctors"></div>
+      <hr>
+    </div>
+  </div><!--closes container-->
+  </body>
+</html>

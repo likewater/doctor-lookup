@@ -1,0 +1,42 @@
+$gray : #d3d3d3;
+$green : #75B975;
+
+.box {
+  background: $gray;
+  border: 3px solid black;
+  padding: 40px 80px;
+  .button {
+    font-weight: bold;
+    text-align: center;
+    background: $green;
+    color: white;
+  }
+}
+// .jumbotron{
+//   background-color: pink;
+// }
+
+#jumbotron{
+  background-color: grey;
+  color: white;
+  padding: 15px;
+}
+
+body{
+  background-color: beige;
+}
+
+
+ul{
+  style: none;
+}
+
+li{
+  style: none;
+}
+
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
