@@ -17,29 +17,23 @@
   <div class="col-lg-12 col-md-offset-">
     <div class="well">
       <h1>Find Doctors!</h1>
-      <label for="location">Location: </label>
+      <form id="formFlow">
+      <div class="formGroup">
+      <label for="location">Search Location: </label>
       <input id="location" type="text" required>
-      <label for="specialty">Specialty: </label>
-      <input id="specialtyr" type="text" required>
-      <label for="insurance">Insurance: </label>
-      <input id="insurance" type="text" required>
+      <!-- <label for="user_location">Your Location: </label>
+      <input id="user_location" type="text" required>
+      <label for="specialty_uid">Specialty: </label>
+      <input id="specialty_uid" type="text" required>
+      <label for="insurance_uid">Your Insurance: </label>
+      <input id="insurance_uid" type="text" required> -->
       <button class="btn-primary" id="doctorSearch">Find Your Doctor</button>
+    </div>
+    </form>
     </div> <!--closes well-->
   </div> <!--closes col-md-8-->
 </div> <!--closes row-->
-<!-- <div class="row">
-  <div class="col-md-8 col-md-offset-2">
-    <div class="well">
-      <h1>Find Doctors By Location And Specialty</h1>
-      <label for="location">Zipcode: </label>
-      <input id="location" type="text" required>
-      <label for="specialty">Specialty: </label>
-      <input id="specialty" type="text" required>
-      <button class="btn-primary" id="locationMake">Search</button>
-    </div>
-  </div>
-</div>-->
-      <hr>
+  <hr>
     <div class="col-md-6 col-md-offset-2">
       <h2>Search Results</h2>
       <div class="showDoctors"></div>
