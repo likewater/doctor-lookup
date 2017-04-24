@@ -1,22 +1,15 @@
 # Apple Tree Doctor Lookup
 
-#### By _Blake_Womack
+#### By Blake Womack
 
 ## Description
-A program to search for a doctor in a database via the Better Doctor API allowing users to find a doctor based on location, specialty and insurance.
-
-## Specs
-
-|Behavior             |Input        | Output       |
-|---------------------|-------------|--------------|
-||||
-||||
-||||
-
+An MVP program to search for a doctor in a database via the Better Doctor API allowing users to find a doctor based on location.
 
 ## Setup, Installation, Requirements
 * Clone repository
-* Compile and run
+* In the top level of the directory create a file called .env
+* Contents of the .env file are: exports.apiKey = "YourApiKey";
+* Go to the [Better Doctor API] page and get a key.
 * In the terminal, navigate to the top level of the cloned directory and run npm install and bower install
 * Run gulp build and gulp serve to view
 
@@ -40,3 +33,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Copyright (c) 2017
 
 [license]: https://opensource.org/licenses/MIT
+[Better Doctor API]: https://developer.betterdoctor.com/
