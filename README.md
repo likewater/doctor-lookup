@@ -6,12 +6,12 @@
 An MVP program to search for a doctor in a database via the Better Doctor API allowing users to find a doctor based on location.
 
 ## Setup, Installation, Requirements
-* Clone repository
+* Clone repository.
 * In the top level of the directory create a file called .env
 * Contents of the .env file are: exports.apiKey = "YourApiKey";
 * Go to the [Better Doctor API] page and get a key.
-* In the terminal, navigate to the top level of the cloned directory and run npm install and bower install
-* Run gulp build and gulp serve to view
+* In the terminal, navigate to the top level of the cloned directory and run "npm install" and "bower install."
+* Run "gulp build" and "gulp serve" to view in a browser.
 
 ## Technologies Used
 * JavaScript
